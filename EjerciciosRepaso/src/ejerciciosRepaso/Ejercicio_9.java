@@ -1,6 +1,8 @@
 package ejerciciosRepaso;
 
-/*Escribir una función que calcule la suma de los múltiplos de 3 o 5, mayores o iguales que 0 y menores que un parámetro n.
+/*Escribir una función que calcule la suma de los múltiplos de 3 o 5,
+ *  mayores o iguales que 0 y menores que un parámetro n.
+ 
 Por ejemplo la llamada:
 
 	sumaMultiplos(10); // devuelve 23 (3+5+6+9)
