@@ -1,7 +1,7 @@
 package ejerciciosRepaso;
 
 /*Escribir una función que calcule la suma de los múltiplos de 3 o 5,
- *  mayores o iguales que 0 y menores que un parámetro n.
+   mayores o iguales que 0 y menores que un parámetro n.
  
 Por ejemplo la llamada:
 
@@ -29,6 +29,7 @@ public class Ejercicio_9 {
 
 		SumaMultiplos(10);
 		SumaMultiplos(16);
+		SumaMultiplos(20);
 
 	}
 
