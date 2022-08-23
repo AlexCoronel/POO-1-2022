@@ -8,15 +8,15 @@ public class Ejercicio_29 {
 
 	public String consonante(String str) {
 
-		String n1;
+		String s;
 
-		n1 = str.replace("a", "");
-		n1 = n1.replace("e", "");
-		n1 = n1.replace("i", "");
-		n1 = n1.replace("o", "");
-		n1 = n1.replace("u", "");
+		s = str.replace("a", "");
+		s = s.replace("e", "");
+		s = s.replace("i", "");
+		s = s.replace("o", "");
+		s = s.replace("u", "");
 
-		return n1;
+		return s;
 	}
 
 	String consonantes(String str) {
