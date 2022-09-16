@@ -28,8 +28,8 @@ public class Ejercicio_9 {
 	public static void main(String[] args) {
 
 		SumaMultiplos(10);
-		SumaMultiplos(16);
-		SumaMultiplos(20);
+		//SumaMultiplos(16);
+		//SumaMultiplos(20);
 
 	}
 
