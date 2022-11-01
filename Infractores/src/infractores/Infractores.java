@@ -43,7 +43,7 @@ public class Infractores {
 
 				}
 			}
-			System.out.println(infractores);
+			
 		} catch (IOException e) {
 			e.printStackTrace();
 		} finally {
