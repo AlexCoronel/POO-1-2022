@@ -22,7 +22,7 @@ public class Punto {
 		this.x = unX;
 	}
 
-	public double getx() {
+	public double getX() {
 		return this.x;
 	}
 
@@ -30,7 +30,7 @@ public class Punto {
 		this.x = unY;
 	}
 
-	public double gety() {
+	public double getY() {
 		return this.y;
 	}
 

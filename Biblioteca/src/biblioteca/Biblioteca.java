@@ -1,5 +1,7 @@
 package biblioteca;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 public class Biblioteca {
 
 	private Libro[] libros;
@@ -77,7 +79,7 @@ public class Biblioteca {
 	}
 //	8. Calcule el tiempo (en minutos) que llevaría leer todos los libros, asumiendo que se tarda 1 minuto por página.
 
-	public int tiempoEnLeetTodosLosLibros() {
+	public int tiempoEnLeerTodosLosLibros() {
 		int contMinutos = 0;
 		for (Libro libro : libros) {
 			contMinutos += libro.getPaginas();
@@ -106,7 +108,12 @@ public class Biblioteca {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Biblioteca biblio = new Biblioteca(3);
+
+		biblio.agregarLibro("Star Wars", "LucasFilms", Genero.CIENCIAFICCION, 500);
+		biblio.agregarLibro("Star Wars 2", "LucasFilms", Genero.CIENCIAFICCION, 600);
+
+		System.out.println(biblio.cuantosLibros());
 
 	}
 
