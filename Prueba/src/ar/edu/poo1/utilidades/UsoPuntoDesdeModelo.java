@@ -20,6 +20,7 @@ public class UsoPuntoDesdeModelo {
 		System.out.println(p0.calcularDistancia(p4));
 		double d = Punto.distancia(p0, p4);
 		System.out.println(d);
+		//
 	}
 
 }
