@@ -64,15 +64,18 @@ public class Biblioteca {
 		}
 		return aux;
 	}
-	
-	public Map<Genero, Integer> librosPorGenero(){
+
+	public Map<Genero, Integer> librosPorGenero() {
 		Map<Genero, Integer> aux = new HashMap();
-		int cont = 0;
+
 		for (Libro cadaUno : libros) {
-			if(!aux.containsKey(cadaUno.getGenero())) {
-				aux.put(cadaUno.getGenero(), cont);
+			if (aux.containsKey(cadaUno.getGenero())) {
+				aux.put(cadaUno.getGenero(), aux.get(cadaUno.getGenero()) + 1);
+
+			} else {
+				aux.put(cadaUno.getGenero(), 1);
 			}
-			cont++;
+
 		}
 		return aux;
 	}
